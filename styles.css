@@ -26,9 +26,12 @@ html{
    margin:1rem;
 }
 .card__container{
-   
     padding: 1rem;
     margin:1rem;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
     
 }
 
