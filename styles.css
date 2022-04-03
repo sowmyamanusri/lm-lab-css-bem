@@ -3,5 +3,69 @@
 img {
     max-width: 200px;
 }
+html{
+    font-size:100%; 
+}
 
-/* Happy coding! */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --light: #E7ECEF;
+    --dark: #272932;
+
+}
+
+.page__header{
+    font-size: 2.25rem;
+    text-align: center;
+   padding: 1rem;
+   margin:1rem;
+}
+.card__container{
+   
+    padding: 1rem;
+    margin:1rem;
+    
+}
+
+.card{
+    margin:1rem;
+    padding:1rem;
+    border:2px solid var(--dark);
+    border-radius: 0.25rem;
+    box-shadow: 0 20px 40px -25px;
+    width: 300px;
+    height:400px;
+}
+
+.card--dark{
+    background :linear-gradient(45deg,rgb(255, 187, 0) , rgb(255, 145, 0));
+}
+
+.card--light{
+    background :linear-gradient(45deg,rgb(205, 204, 203) , rgb(249, 242, 238))
+}
+.card__title{
+    text-align: center;
+    padding:0.8rem;
+    font-size:1.5rem;
+}
+
+.card__img--center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border-radius:0.1rem;
+}
+
+.card__text{
+    text-align: center;
+    font-size:0.8rem;
+    line-height:0.5rem;
+    padding: 1rem;
+}
